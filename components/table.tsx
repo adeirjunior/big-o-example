@@ -5,7 +5,7 @@ export default function Table() {
       <label class="input input-bordered flex items-center gap-2">
         <input type="text" class="grow" placeholder="Search" />
       </label>
-      <div class="overflow-x-auto border border-2 p-2 border-gray-700 h-[500px]">
+      <div class="overflow-x-auto border border-2 p-2 border-gray-700 h-[300px] sm:h-[500px]">
         <table class="table table-xs">
           <thead>
             <tr>

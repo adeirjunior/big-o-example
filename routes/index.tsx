@@ -12,7 +12,7 @@ export default function Home() {
         <Search />
       </section>
       <section class="px-4 py-8 mx-auto flex flex-col gap-4 max-w-4xl">
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <Table />
           <Table />
           <Table />
